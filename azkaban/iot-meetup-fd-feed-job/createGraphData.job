@@ -1,0 +1,3 @@
+# CreateGraphData.job
+type=command
+command=echo *** SUCCESS :) ***

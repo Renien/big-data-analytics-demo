@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>Network | Basic usage</title>
+
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="../bower_components/vis/dist/vis.js"></script>
+  <script type="text/javascript" src="pos-pattern.js"></script>
+  <link href="../bower_components/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 100%;
+      height: 900px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+			Select the logfile.txt text file:
+			<input type="file" id="fileInput" value="/Users/renienj/Kohls/projects/kohls/retail_postagger/logfile.txt">
+	</div>
+
+<p>
+  Networkgraph with weightage | Face Book User Name Mapping
+</p>
+
+<div id="mynetwork"></div>
+
+</body>
+</html>

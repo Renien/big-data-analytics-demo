@@ -1,0 +1,4 @@
+# FormatFBFeed.job
+type=command
+dependencies=createGraphData
+command=echo *** SUCCESS :) ***

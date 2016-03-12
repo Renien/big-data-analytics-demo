@@ -1,0 +1,1 @@
+HADOOP_USER_NAME=yarn spark-submit --class mappers.FBFeedLoadJob --master yarn-client --driver-memory 4g /root/iot-demo/spark-demo-assembly-1.0.jar -h hdfs://sandbox.hortonworks.com:8020 -f /user/guest/iot-demo/data/sample_fb_data.feed -o /user/guest/iot-demo/fb_mappers -k userid

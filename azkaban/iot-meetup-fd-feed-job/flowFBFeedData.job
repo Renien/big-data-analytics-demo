@@ -1,0 +1,3 @@
+# flowFBFeedData.job
+type=flow
+flow.name=formatFBFeed
